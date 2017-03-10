@@ -37,11 +37,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Obtenerporid }
+     * Create an instance of {@link Obtenertodo }
      * 
      */
-    public Obtenerporid createObtenerporid() {
-        return new Obtenerporid();
+    public Obtenertodo createObtenertodo() {
+        return new Obtenertodo();
+    }
+
+    /**
+     * Create an instance of {@link Genero }
+     * 
+     */
+    public Genero createGenero() {
+        return new Genero();
     }
 
     /**
@@ -61,11 +69,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ObtenertodoResponse }
+     * Create an instance of {@link Obtenerporid }
      * 
      */
-    public ObtenertodoResponse createObtenertodoResponse() {
-        return new ObtenertodoResponse();
+    public Obtenerporid createObtenerporid() {
+        return new Obtenerporid();
     }
 
     /**
@@ -77,19 +85,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Obtenertodo }
+     * Create an instance of {@link ObtenertodoResponse }
      * 
      */
-    public Obtenertodo createObtenertodo() {
-        return new Obtenertodo();
-    }
-
-    /**
-     * Create an instance of {@link Genero }
-     * 
-     */
-    public Genero createGenero() {
-        return new Genero();
+    public ObtenertodoResponse createObtenertodoResponse() {
+        return new ObtenertodoResponse();
     }
 
     /**
