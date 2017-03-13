@@ -1,7 +1,6 @@
 
 package com.ipartek.peliculas;
 
-import java.util.List;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebResult;
@@ -27,13 +26,13 @@ public interface PeliculaServiceWSImp {
     /**
      * 
      * @return
-     *     returns java.util.List<com.ipartek.peliculas.Pelicula>
+     *     returns com.ipartek.peliculas.PeliculasColection
      */
     @WebMethod
     @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "obtenertodo", targetNamespace = "http://pelicula.ws.formacion.ipartek.com/", className = "com.ipartek.peliculas.Obtenertodo")
     @ResponseWrapper(localName = "obtenertodoResponse", targetNamespace = "http://pelicula.ws.formacion.ipartek.com/", className = "com.ipartek.peliculas.ObtenertodoResponse")
-    public List<Pelicula> obtenertodo();
+    public PeliculasColection obtenertodo();
 
     /**
      * 

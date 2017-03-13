@@ -37,35 +37,11 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Obtenertodo }
+     * Create an instance of {@link Pelicula }
      * 
      */
-    public Obtenertodo createObtenertodo() {
-        return new Obtenertodo();
-    }
-
-    /**
-     * Create an instance of {@link Genero }
-     * 
-     */
-    public Genero createGenero() {
-        return new Genero();
-    }
-
-    /**
-     * Create an instance of {@link ObtenerporidResponse }
-     * 
-     */
-    public ObtenerporidResponse createObtenerporidResponse() {
-        return new ObtenerporidResponse();
-    }
-
-    /**
-     * Create an instance of {@link PeliculaMensaje }
-     * 
-     */
-    public PeliculaMensaje createPeliculaMensaje() {
-        return new PeliculaMensaje();
+    public Pelicula createPelicula() {
+        return new Pelicula();
     }
 
     /**
@@ -77,11 +53,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Pelicula }
+     * Create an instance of {@link ObtenerporidResponse }
      * 
      */
-    public Pelicula createPelicula() {
-        return new Pelicula();
+    public ObtenerporidResponse createObtenerporidResponse() {
+        return new ObtenerporidResponse();
+    }
+
+    /**
+     * Create an instance of {@link Genero }
+     * 
+     */
+    public Genero createGenero() {
+        return new Genero();
+    }
+
+    /**
+     * Create an instance of {@link Obtenertodo }
+     * 
+     */
+    public Obtenertodo createObtenertodo() {
+        return new Obtenertodo();
+    }
+
+    /**
+     * Create an instance of {@link PeliculasColection }
+     * 
+     */
+    public PeliculasColection createPeliculasColection() {
+        return new PeliculasColection();
     }
 
     /**
@@ -90,6 +90,14 @@ public class ObjectFactory {
      */
     public ObtenertodoResponse createObtenertodoResponse() {
         return new ObtenertodoResponse();
+    }
+
+    /**
+     * Create an instance of {@link PeliculaMensaje }
+     * 
+     */
+    public PeliculaMensaje createPeliculaMensaje() {
+        return new PeliculaMensaje();
     }
 
     /**
